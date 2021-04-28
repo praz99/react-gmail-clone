@@ -6,7 +6,12 @@ import './Sidebar.css';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <Button startIcon={<AddIcon fontsize="large" className="sidebar__compose" />}>Compose</Button>
+      <Button
+        startIcon={<AddIcon fontsize="large"/>}
+        className="sidebar__compose"
+      >
+        Compose
+      </Button>
     </div>
   );
 }
