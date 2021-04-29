@@ -40,6 +40,9 @@ function EmailList() {
           </IconButton>
         </div>
       </div>
+      <div className="emailList__sections">
+        
+      </div>
     </div>
   );
 }
