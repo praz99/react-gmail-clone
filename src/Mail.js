@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { ArrowBack, CheckCircle, Delete, Email, Error, LabelImportant, MoreVert, MoveToInbox, WatchLater } from '@material-ui/icons';
+import { ArrowBack, CheckCircle, Delete, Email, Error, ExitToApp, LabelImportant, MoreVert, MoveToInbox, Print, UnfoldMore, WatchLater } from '@material-ui/icons';
 import { IconButton } from '@material-ui/core';
 import './Mail.css';
 
@@ -39,7 +39,15 @@ function Mail() {
           </IconButton>
         </div>
         <div className="mail__toolsRight">
-
+          <IconButton>
+            <UnfoldMore />
+          </IconButton>
+          <IconButton>
+            <Print />
+          </IconButton>
+          <IconButton>
+            <ExitToApp />
+          </IconButton>
         </div>
       </div>
     </div>
